@@ -18,18 +18,17 @@ import "./styles/homepage.css";
 
 const Homepage = () => {
 
-    const codedDescription = (
-        <span>
-            A coding curiosity in late 2022 quickly evolved into a passion. While my current specialty lies in <strong>front-end development</strong>, 
-            I actively explore various technologies to expand my skill set and build a diverse array of projects.
-        </span>
-    )
-
-    const codedTitle = (
-        <span>
-            I love building apps to solve real world challenges that are a delight to engage with for the end user.
-        </span>
-    )
+	const codedDescription = (
+		<span>
+			As a software engineer and <strong>web and chatbot developer</strong>, my journey began in late 2022 when I started exploring the world of coding. 
+			Today, I specialize in <strong>front-end development</strong>, generative AI, and LLM projects, constantly expanding my skill set by diving into new tools and technologies.
+		</span>
+	)
+	
+	const codedTitle = (
+		<span>
+ I build solutions that solve real-world challenges and delight users.		</span>
+	)
 
     useEffect(() => {
 		document.title = `${INFO.main.title}`;
@@ -57,7 +56,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="https://res.cloudinary.com/dexjsh4sa/image/upload/v1712609501/homepage_zdhsdp.jpg"
+											src="me.jpeg"
 											alt="about"
 											className="homepage-image"
 										/>

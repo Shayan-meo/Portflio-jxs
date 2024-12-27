@@ -12,10 +12,8 @@ const Projects = () => {
 
     const codedDescription = (
         <span>
-            I've worked on a variety of projects since beginning my coding journey in 2022 and I'm proud of the progress I've made. All of 
-            them are open-source and I welcome any feedback or contributions. I am actively researching backend technologies and how they 
-            could be integrated into future projects. These projects could include, but are not limited to, tools for <strong>non-KYC 
-            verification</strong> and <strong> distinguishing AI from non-AI generated content.</strong>
+                   Since embarking on my coding journey in 2022, I've contributed to a diverse range of projects, and I'm proud of the progress I've made. All of my work is open-source, and I welcome any feedback or contributions. I'm actively researching backend technologies and exploring how they can be integrated into future projects. My current interests include <strong>non-KYC verification</strong> and <strong>distinguishing AI-generated content from non-AI-generated content</strong>, and I'm particularly interested in developing tools in these areas. I focus on building scalable and secure solutions that address real-world problems.
+
         </span>
     )
 

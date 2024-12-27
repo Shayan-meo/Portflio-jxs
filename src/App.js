@@ -6,8 +6,8 @@ import Projects from "./pages/projects";
 import Contact from "./pages/contact";
 import Notfound from "./pages/404";
 import ScrollToTop from "./components/common/ScrollToTop";
-
 import "./app.css";
+import Chatbot from "./chatbot";
 
 function App() {
 
@@ -20,6 +20,7 @@ function App() {
 				<Route path="/contact" element={<Contact />} />
 				<Route path="*" element={<Notfound />} />
 			</Routes>
+			<Chatbot/>
             <ScrollToTop />
 		</div>
 	);

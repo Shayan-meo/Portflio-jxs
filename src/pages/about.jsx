@@ -11,26 +11,21 @@ import "./styles/about.css";
 const About = () => {
 
     const codedDescription = (
-        <span>
-            <p>
-                With a solid background in ad tech, I bring a unique blend of technical expertise and client-facing experience to the 
-                table. In my most recent role as a solution engineer, I collaborated closely with the sales team throughout the pre-sale 
-                cycle for our demand-side platform (DSP). This involved conducting SaaS product demonstrations, coordinating responses 
-                to RFIs, and leveraging my hands-on platform knowledge to provide platform enhancement ideas to the product team.
-            </p>
-            <p>
-                Beyond my professional pursuits, I am an avid endurance athlete, chef, reader, home improvement DIYer, Bitcoiner, and 
-                sports fan. These varied interests not only fuel my personal growth but also contribute to my well-rounded 
-                perspective and a relentless desire to learn.
-            </p>
-            <p>
-                As a new father, I have mastered the art of balancing multiple priorities while maintaining a strong work ethic and commitment 
-                to family. I thrive in dynamic environments that demand adaptability, creative problem-solving, pursuit of improvement and 
-                discipline.
-            </p>
-        </span>
-    )
-
+		<span>
+			<p>
+				As a software engineer and <strong>web and chatbot developer</strong>, I bring a rich blend of technical expertise and innovative problem-solving skills to every project. 
+				My experience spans <strong>front-end development</strong>, <strong>generative AI</strong>, and <strong>LLM projects</strong>, where I specialize in creating seamless user experiences and efficient solutions. 
+				I am proficient in technologies like <strong>HTML, CSS, JavaScript, TypeScript, Node.js, Express.js, Tailwind, React.js, and Next.js</strong>, and I have hands-on expertise in chatbot development using <strong>Dialogflow, Kommunicate, and Flowise AI</strong>.
+			</p>
+			<p>
+				Beyond coding, I am passionate about continuously learning and exploring cutting-edge tools to stay ahead in the tech world. Whether it's building innovative projects or diving into new frameworks, I thrive on pushing boundaries and delivering exceptional results.
+			</p>
+			<p>
+				Outside of work, I enjoy sharing knowledge, exploring new ideas, and mentoring aspiring developers. My commitment to excellence, adaptability, and love for technology drive me to excel in dynamic and challenging environments.
+			</p>
+		</span>
+	)
+	
     const codedTitle = (
         <span>
             Get to know me!
@@ -63,7 +58,7 @@ const About = () => {
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
-											src="https://res.cloudinary.com/dexjsh4sa/image/upload/v1712609541/about_pxxxy1.jpg"
+											src="about.jpeg"
 											alt="about"
 											className="about-image"
 										/>
