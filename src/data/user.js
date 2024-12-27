@@ -1,15 +1,15 @@
 const INFO = {
 	main: {
 		title: "Ed the dev",
-		name: "Ahsen adil",
-		email: "meoahsan01@gmail.com",
-		logo: "../headshot.png",
+		name: "Shayan rehan",
+		email: "shahyanqamar540@gmail.com",
+		logo: "../headshot.pn",
 	},
 
 	socials: {
-		twitter: "https://twitter.com",
-		github: "https://github.com/ahsen-adil",
-		linkedin: "https://www.linkedin.com/in/ahsan-adil-48522b290/"
+		twitter: "https://twitter.com/",
+		github: "https://github.com/Shayan-meo",
+		linkedin: "https://www.linkedin.com/in/muhammad-shayan-99a39b2b0/"
 	},
 
 	homepage: {
